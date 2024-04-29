@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 400px;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: lightskyblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #e94d58;
+    margin: 15px 0;
+    color: darkmagenta;
+    margin-bottom: auto;
+}
+
+.img-cute {
+    width: 100%;
+}
+ img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+ }
+
+ button {
+    width: 100%;
+    border-radius: 30px;
+    font-size: 30px;
+    border-color: #e94d58;
+    color: darkmagenta;
+    background-color: pink;
+ }
+
+
+button:hover{
+    background-color: purple;
+    color: white;
+}
